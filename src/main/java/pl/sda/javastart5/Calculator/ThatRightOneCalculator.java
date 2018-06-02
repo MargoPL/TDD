@@ -13,28 +13,35 @@ public class ThatRightOneCalculator {
                 System.exit(0);
             }
 
-            char operationMark = inputReader.extractEquation(input1).getOperationMark();
-            double firstNumber = inputReader.extractEquation(input1).getFirstNumber();
-            double secondNumber = inputReader.extractEquation(input1).getSecondNumber();
-            switch (operationMark) {
-                case '+':
-                    System.out.println(calculator.addTwoNumbers(firstNumber, secondNumber));
-                    break;
-                case '-':
-                    System.out.println(calculator.subtractTwoNumbers(firstNumber, secondNumber));
-                    break;
-                case '*':
-                    System.out.println(calculator.multiplyTwoNumbers(firstNumber, secondNumber));
-                    break;
-                case '/':
-                    System.out.println(calculator.divideTwoNumbers(firstNumber, secondNumber));
-                    break;
-                case '^':
-                    System.out.println(calculator.powerOf(firstNumber, secondNumber));
-                    break;
-                case '#':
-                    System.out.println(calculator.nthRootOf(firstNumber, secondNumber));
-                    break;
+            if (input1.length() > 1) {
+                char operationMark = inputReader.extractEquation(input1).getOperationMark();
+                double firstNumber = inputReader.extractEquation(input1).getFirstNumber();
+                double secondNumber = inputReader.extractEquation(input1).getSecondNumber();
+
+                switch (operationMark) {
+                    case '+':
+                        System.out.println(calculator.addTwoNumbers(firstNumber, secondNumber));
+                        break;
+                    case '-':
+                        System.out.println(calculator.subtractTwoNumbers(firstNumber, secondNumber));
+                        break;
+                    case '*':
+                        System.out.println(calculator.multiplyTwoNumbers(firstNumber, secondNumber));
+                        break;
+                    case '/':
+                        System.out.println(calculator.divideTwoNumbers(firstNumber, secondNumber));
+                        break;
+                    case '^':
+                        System.out.println(calculator.powerOf(firstNumber, secondNumber));
+                        break;
+                    case '#':
+                        System.out.println(calculator.nthRootOf(firstNumber, secondNumber));
+                        break;
+                }
+            } else {
+                double number = inputReader.extractEquation1(input1).getFirstNumber();
+                System.out.println(calculator.isEven(number, 2) == 0 ? "Liczba jest parzysta" : "Liczba jest nieptarzysta");
+                break;
             }
         }
     }

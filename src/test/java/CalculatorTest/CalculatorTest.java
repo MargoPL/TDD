@@ -1,13 +1,17 @@
 package CalculatorTest;
 
+import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
 import pl.sda.javastart5.calculator.Calculator;
 import pl.sda.javastart5.calculator.exceptions.InvalidNumberException;
 
+@RunWith(JUnitParamsRunner.class)
 public class CalculatorTest {
 
     private static Calculator calculator;
@@ -126,4 +130,34 @@ public class CalculatorTest {
         calculator.divideTwoNumbers(firstNumber, secondNumber);
     }
 
+    @Test
+    public void testDivideWithTryCatch() {
+        //given
+        double firstNumber = 5;
+        double secondNumber = 0;
+
+        //when
+        try {
+            calculator.divideTwoNumbers(firstNumber, secondNumber);
+            Assert.fail();
+        } catch (InvalidNumberException invalidNumberException) {
+
+        }
+    }
+
+    @Test
+    public void testIsEven() {
+        //given
+        double firstNumber = 12;
+        double secondNumber = 5;
+        double expectedResult = 0;
+
+        //when
+        double actualResult = calculator.isEven(firstNumber, 2);
+        double actualResult1 = calculator.isEven(secondNumber, 2);
+
+        //then
+        Assert.assertTrue(expectedResult == actualResult);
+        Assert.assertFalse(expectedResult == actualResult1);
+    }
 }

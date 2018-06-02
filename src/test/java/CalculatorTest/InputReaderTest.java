@@ -34,10 +34,10 @@ public class InputReaderTest {
         EquationModel actualFourthResult = inputReader.extractEquation(fourthEquation);
 
         //then
-        Assert.assertEquals(firstEquationExpected,actualFirstResult);
-        Assert.assertEquals(secondEquationExpected,actualSecondResult);
-        Assert.assertEquals(thirdEquationExpected,actualThirdResult);
-        Assert.assertEquals(fourthEquationExpected,actualFourthResult);
+        Assert.assertEquals(firstEquationExpected, actualFirstResult);
+        Assert.assertEquals(secondEquationExpected, actualSecondResult);
+        Assert.assertEquals(thirdEquationExpected, actualThirdResult);
+        Assert.assertEquals(fourthEquationExpected, actualFourthResult);
 
     }
 }

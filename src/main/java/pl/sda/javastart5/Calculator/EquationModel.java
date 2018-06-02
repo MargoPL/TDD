@@ -2,6 +2,8 @@ package pl.sda.javastart5.calculator;
 
 
 public class EquationModel {
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -38,5 +40,9 @@ public class EquationModel {
         firstNumber = i;
         secondNumber = i1;
         operationMark = c;
+    }
+
+    public EquationModel(double i) {
+        firstNumber = i;
     }
 }
