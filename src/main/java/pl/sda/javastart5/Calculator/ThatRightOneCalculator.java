@@ -1,10 +1,12 @@
 package pl.sda.javastart5.calculator;
 
+import pl.sda.javastart5.calculator.exceptions.InvalidNumberException;
+
 public class ThatRightOneCalculator {
     private static InputReader inputReader = new InputReader();
     private static Calculator calculator = new Calculator();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvalidNumberException {
         while (true) {
             String input1 = inputReader.readInput();
             if (input1.equalsIgnoreCase("q")) {

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b8bc33-343f-4c96-909e-00becccb2de8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/Calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/Calculator/EquationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/Calculator/InputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/Calculator/ThatRightOneCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/Calculator/exceptions/InvalidNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest/InputReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InvalidNumberException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/exceptions/InvalidNumberException.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,35 +24,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThatRightOneCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/ThatRightOneCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EquationModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/EquationModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="266">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThatRightOneCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/ThatRightOneCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -78,8 +57,20 @@
       <file leaf-file-name="InputReaderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest/InputReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EquationModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/EquationModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -87,8 +78,8 @@
       <file leaf-file-name="InputReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/InputReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -118,12 +109,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/Calculator/exceptions/InvalidNumberException.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/Calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/InputReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/ThatRightOneCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/exceptions/InvalidNumberException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTest/InputReaderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CalculatorTest/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/EquationModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/ThatRightOneCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CalculatorTest/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -243,18 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="ThatRightOneCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart5.Calculator.ThatRightOneCalculator" />
-      <module name="TestDrivenDevelopment" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.javastart5.Calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest.testDivideWithRule">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -281,7 +261,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.testAddTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testDivideWithExpected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <extension name="coverage">
         <pattern>
@@ -293,7 +273,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="CalculatorTest" />
       <option name="MAIN_CLASS_NAME" value="CalculatorTest.CalculatorTest" />
-      <option name="METHOD_NAME" value="testAddTwoNumbers" />
+      <option name="METHOD_NAME" value="testDivideWithExpected" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalculatorTest.testDivideWithRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CalculatorTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest.CalculatorTest" />
+      <option name="METHOD_NAME" value="testDivideWithRule" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -389,19 +392,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest.testAddTwoNumbers" />
       <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="Application.ThatRightOneCalculator" />
       <item itemvalue="JUnit.CalculatorTest.testPowerOf" />
       <item itemvalue="JUnit.CalculatorTest.testNthRootOf" />
+      <item itemvalue="JUnit.CalculatorTest.testDivideWithExpected" />
+      <item itemvalue="JUnit.CalculatorTest.testDivideWithRule" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.testDivideWithRule" />
+        <item itemvalue="JUnit.CalculatorTest.testDivideWithExpected" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.testNthRootOf" />
         <item itemvalue="JUnit.CalculatorTest.testPowerOf" />
-        <item itemvalue="Application.ThatRightOneCalculator" />
-        <item itemvalue="JUnit.CalculatorTest.testAddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -415,23 +418,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527925047465</updated>
-      <workItem from="1527925055845" duration="12820000" />
+      <workItem from="1527925055845" duration="14398000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_testMultiplyTwoNumbers - 2018.06.02 at 11h 38m 04s.xml">
-      <configuration name="CalculatorTest.testMultiplyTwoNumbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InputReaderTest_testExtractEquation - 2018.06.02 at 11h 38m 13s.xml">
-      <configuration name="InputReaderTest.testExtractEquation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InputReaderTest_testExtractEquation - 2018.06.02 at 11h 39m 26s.xml">
-      <configuration name="InputReaderTest.testExtractEquation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testAddTwoNumbers - 2018.06.02 at 11h 49m 16s.xml">
-      <configuration name="CalculatorTest.testAddTwoNumbers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest - 2018.06.02 at 11h 49m 21s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -444,9 +435,27 @@
     <history-entry file="CalculatorTest_testNthRootOf - 2018.06.02 at 13h 39m 05s.xml">
       <configuration name="CalculatorTest.testNthRootOf" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest - 2018.06.02 at 13h 40m 44s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testDivideWithExpected - 2018.06.02 at 13h 53m 33s.xml">
+      <configuration name="CalculatorTest.testDivideWithExpected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testDivideWithExpected - 2018.06.02 at 13h 53m 54s.xml">
+      <configuration name="CalculatorTest.testDivideWithExpected" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testDivideWithRule - 2018.06.02 at 14h 01m 49s.xml">
+      <configuration name="CalculatorTest.testDivideWithRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testDivideWithRule - 2018.06.02 at 14h 02m 25s.xml">
+      <configuration name="CalculatorTest.testDivideWithRule" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testDivideWithRule - 2018.06.02 at 14h 05m 24s.xml">
+      <configuration name="CalculatorTest.testDivideWithRule" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12820000" />
+    <option name="totallyTimeSpent" value="14398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -498,6 +507,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/EquationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/exceptions/InvalidNumberException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -505,31 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest/InputReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/EquationModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -538,15 +540,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/ThatRightOneCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-10.0.1!/jdk.jconsole/sun/tools/jconsole/Messages.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="125" column="45" lean-forward="true" selection-start-line="125" selection-start-column="45" selection-end-line="125" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart5/calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="266">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

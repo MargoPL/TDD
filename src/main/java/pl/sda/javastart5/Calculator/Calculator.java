@@ -1,6 +1,8 @@
 package pl.sda.javastart5.calculator;
 
-public class Calculator {
+import pl.sda.javastart5.calculator.exceptions.InvalidNumberException;
+
+public class Calculator  extends InvalidNumberException {
 
     public double addTwoNumbers(double firstNumber, double secondNumber) {
 
@@ -17,7 +19,10 @@ public class Calculator {
         return firstNumber * secondNumber;
     }
 
-    public double divideTwoNumbers(double firstNumber, double secondNumber) {
+    public double divideTwoNumbers(double firstNumber, double secondNumber) throws InvalidNumberException {
+        if (secondNumber == 0){
+            throw new InvalidNumberException("Nie dziel przez 0");
+        }
         return firstNumber / secondNumber;
     }
 

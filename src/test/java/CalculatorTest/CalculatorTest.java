@@ -2,13 +2,18 @@ package CalculatorTest;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 import pl.sda.javastart5.calculator.Calculator;
+import pl.sda.javastart5.calculator.exceptions.InvalidNumberException;
 
 public class CalculatorTest {
 
     private static Calculator calculator;
 
+    @Rule
+    public ExpectedException exception = ExpectedException.none();
 
     @BeforeClass
     public static void SetUp() {
@@ -98,4 +103,27 @@ public class CalculatorTest {
         //then
         Assert.assertTrue(expectedResult == actualResult);
     }
+
+    @Test(expected = InvalidNumberException.class)
+    public void testDivideWithExpected() throws InvalidNumberException {
+        // given
+        double firstNumber = 5;
+        double secondNumber = 0;
+
+        //when
+        double actualResult = calculator.divideTwoNumbers(firstNumber, secondNumber);
+    }
+
+    @Test
+    public void testDivideWithRule() throws InvalidNumberException {
+        // given
+        double firstNumber = 5;
+        double secondNumber = 0;
+        exception.expect(InvalidNumberException.class);
+        exception.expectMessage("Nie dziel przez 0");
+
+        //when
+        calculator.divideTwoNumbers(firstNumber, secondNumber);
+    }
+
 }
