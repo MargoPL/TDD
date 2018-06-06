@@ -37,4 +37,9 @@ public class Calculator extends InvalidNumberException {
     public double isEven(double number, int i) {
         return number % i;
     }
+
+    public double factorial(double number, char c) {
+
+        return number == 0 ? 1 : number * factorial(number - 1,'!');
+    }
 }

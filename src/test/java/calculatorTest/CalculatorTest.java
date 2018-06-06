@@ -1,7 +1,7 @@
-package CalculatorTest;
+package calculatorTest;
 
 import junitparams.JUnitParamsRunner;
-import junitparams.Parameters;
+import org.assertj.core.api.Assertions;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Rule;
@@ -159,5 +159,31 @@ public class CalculatorTest {
         //then
         Assert.assertTrue(expectedResult == actualResult);
         Assert.assertFalse(expectedResult == actualResult1);
+    }
+
+    @Test
+    public void testFactorial(){
+        //given
+        double number = 4;
+        double number1 = 7;
+        double number2 = 2;
+        double number3 = 3;
+
+        double score = 24;
+        double score1 = 5040;
+        double score2 = 2;
+        double score3 = 6;
+
+        //when
+        double actualResult = calculator.factorial(number,'!');
+        double actualResult1 = calculator.factorial(number1,'!');
+        double actualResult2 = calculator.factorial(number2,'!');
+        double actualResult3 = calculator.factorial(number3,'!');
+
+        //then
+        Assertions.assertThat(score).isEqualTo(actualResult);
+        Assertions.assertThat(score1).isEqualTo(actualResult1);
+        Assertions.assertThat(score2).isEqualTo(actualResult2);
+        Assertions.assertThat(score3).isEqualTo(actualResult3);
     }
 }

@@ -13,10 +13,11 @@ public class ThatRightOneCalculator {
                 System.exit(0);
             }
 
-            if (input1.length() > 1) {
+            if (input1.length() > 2) {
                 char operationMark = inputReader.extractEquation(input1).getOperationMark();
                 double firstNumber = inputReader.extractEquation(input1).getFirstNumber();
                 double secondNumber = inputReader.extractEquation(input1).getSecondNumber();
+
 
                 switch (operationMark) {
                     case '+':
@@ -37,8 +38,14 @@ public class ThatRightOneCalculator {
                     case '#':
                         System.out.println(calculator.nthRootOf(firstNumber, secondNumber));
                         break;
+
                 }
-            } else {
+            }else if (input1.length()==2){
+                double number = inputReader.extractEquation2(input1).getFirstNumber();
+
+                    System.out.println(calculator.factorial(number, '!'));
+
+        }else {
                 double number = inputReader.extractEquation1(input1).getFirstNumber();
                 System.out.println(calculator.isEven(number, 2) == 0 ? "Liczba jest parzysta" : "Liczba jest nieptarzysta");
                 break;

@@ -45,4 +45,9 @@ public class EquationModel {
     public EquationModel(double i) {
         firstNumber = i;
     }
+
+    public EquationModel(double i, char c) {
+        firstNumber = i;
+        operationMark = c;
+    }
 }
